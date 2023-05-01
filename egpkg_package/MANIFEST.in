@@ -1,0 +1,5 @@
+recursive-include egpkg/cppsrc *.pyx
+recursive-include egpkg/cppsrc *.cpp
+recursive-include egpkg/cppsrc *.h
+recursive-include egpkg/cppsrc *.so
+

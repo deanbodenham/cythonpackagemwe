@@ -1,0 +1,1 @@
+from .cppmethods import timesThree
