@@ -53,6 +53,11 @@ for others to use.
 
 (By the way, this is the main command in `build_dist.sh`)
 
+**Note:** It seems that it is necessary to be connected to the internet, 
+because Python seems to create a virtual environment and install `numpy` and
+other packages in this environment before compiling the package.
+
+
 
 ## Details
 
