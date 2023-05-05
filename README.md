@@ -79,6 +79,8 @@ This package contains two functions:
   the `.tar.gz` file.
   - `runtests.sh`: runs simple tests of `timesTwo` and `timesThree` using `pytest`.
   This script essentially calls `buildinplace.sh`, which does not install the package.
+  - `replace.sh`: allows one to easily change from 'egpkg' to 'mypackage' 
+  (or any other string); useful when using this package as a starting point.
   - `script.py`: A simple script which can be run, after `egpkg` is installed, to
   check that the functions `timesTwo` and `timesThree` work.
   - `uninstall.sh`: uninstalls the package, if it has been built and installed.
